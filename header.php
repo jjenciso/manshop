@@ -47,7 +47,7 @@ if (isset($_POST['logout'])) {
                 </li>
                 <?php if ($loggedIn) { ?>
 
-                    <p id="welcome">Welcome, <?php echo $username; ?></p>
+                    <p style="color: #fff;" id="welcome">Welcome, <?php echo $username; ?></p>
                     <form action="" method="post">
                         <li id="lg-user">
                             <button style="cursor: pointer;" type="submit" name="logout" ><i class="fa-solid fa-right-from-bracket"></i></button>

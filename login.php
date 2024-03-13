@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["user"] = $username;
 
     // check if the user is the admin
-    if ($username === "arnoliza") {
+    if ($username === "shopAdmin") {
       header("Location: admin/admin.php");
       exit;
     }
